@@ -19,7 +19,6 @@ public class Bullet : MonoBehaviour
     }
     public void delMeth()
     {
-        Debug.Log("Hi");
         Destroy(gameObject);
     }
 }
