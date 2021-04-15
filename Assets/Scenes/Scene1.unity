@@ -3091,6 +3091,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4046592883254514092, guid: 507e7a497a9f93c4aa0e78964f7aeed6, type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 6455983375891855512, guid: 2108db23683934f59b65543f972bc1f6, type: 3}
     - target: {fileID: 4046592883254514095, guid: 507e7a497a9f93c4aa0e78964f7aeed6, type: 3}
       propertyPath: cam
       value: 
