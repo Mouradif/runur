@@ -36,7 +36,6 @@ public class Attacking: MonoBehaviour
         {
             Shoot("right");
         }
-
     }
 
     private static float GetShootingAngle(string direction)
