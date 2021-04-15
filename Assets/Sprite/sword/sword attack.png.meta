@@ -1,28 +1,22 @@
 fileFormatVersion: 2
-guid: f8e8673ddc194584e9633b2975c8862a
+guid: 8870af7ca48004f099b0bacee2c65236
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2786854940725833379
-    second: knightwalk_0
+      213: 834524884570337692
+    second: sword attack_0
   - first:
-      213: 4297727921023654049
-    second: knightwalk_1
+      213: -4047039644383519640
+    second: sword attack_1
   - first:
-      213: -5833019072059840684
-    second: knightwalk_2
+      213: 2248652340200282327
+    second: sword attack_2
   - first:
-      213: 1489962838237612039
-    second: knightwalk_3
+      213: -4222335402225899413
+    second: sword attack_3
   - first:
-      213: 2702952271641681600
-    second: knightwalk_4
-  - first:
-      213: 2239681578060542886
-    second: knightwalk_5
-  - first:
-      213: 1816906031455376887
-    second: knightwalk_6
+      213: 902796385572425473
+    second: sword attack_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -67,7 +61,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 12
+  spritePixelsToUnits: 15
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -124,148 +118,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: knightwalk_0
+      name: sword attack_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 3
-        width: 15
-        height: 19
+        x: 0
+        y: 0
+        width: 49
+        height: 65
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d519e71623a1359d0800000000000000
-      internalID: -2786854940725833379
+      spriteID: c91f90506f3d49b00800000000000000
+      internalID: 834524884570337692
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knightwalk_1
+      name: sword attack_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 3
-        width: 13
-        height: 19
+        x: 49
+        y: 0
+        width: 49
+        height: 65
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a894e916c894ab30800000000000000
-      internalID: 4297727921023654049
+      spriteID: 86cd894b2e606d7c0800000000000000
+      internalID: -4047039644383519640
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knightwalk_2
+      name: sword attack_2
       rect:
         serializedVersion: 2
-        x: 56
-        y: 3
-        width: 15
-        height: 19
+        x: 98
+        y: 0
+        width: 49
+        height: 65
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4576bc10f04fc0fa0800000000000000
-      internalID: -5833019072059840684
+      spriteID: 7d81df8b361d43f10800000000000000
+      internalID: 2248652340200282327
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knightwalk_3
+      name: sword attack_3
       rect:
         serializedVersion: 2
-        x: 80
-        y: 3
-        width: 17
-        height: 20
+        x: 147
+        y: 0
+        width: 49
+        height: 65
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7088fa5ae496da410800000000000000
-      internalID: 1489962838237612039
+      spriteID: b68e4c392504765c0800000000000000
+      internalID: -4222335402225899413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knightwalk_4
+      name: sword attack_4
       rect:
         serializedVersion: 2
-        x: 104
-        y: 3
-        width: 19
-        height: 19
+        x: 196
+        y: 0
+        width: 49
+        height: 65
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ce990c25c0d28520800000000000000
-      internalID: 2702952271641681600
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: knightwalk_5
-      rect:
-        serializedVersion: 2
-        x: 129
-        y: 3
-        width: 19
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6a3f8466782f41f10800000000000000
-      internalID: 2239681578060542886
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: knightwalk_6
-      rect:
-        serializedVersion: 2
-        x: 155
-        y: 3
-        width: 17
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7f59923c862f63910800000000000000
-      internalID: 1816906031455376887
+      spriteID: 10f0d8a8780678c00800000000000000
+      internalID: 902796385572425473
       vertices: []
       indices: 
       edges: []
