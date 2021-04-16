@@ -9,12 +9,13 @@ public class Attacking: MonoBehaviour
     private Animator _anim;
     private bool _isAttacking;
     private static readonly int Attack = Animator.StringToHash("attack");
-
+    
     private void Start()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
         _anim = GetComponent<Animator>();
         transform.SetParent(player.transform, false);
+        _rigidbody.transform.position = new Vector3(player.transform.position.x + 0.8f, player.transform.position.y + 0.3f);
     }
 
     // Update is called once per frame
@@ -63,7 +64,7 @@ public class Attacking: MonoBehaviour
     private void ShootCooldown()
     {
         _isAttacking = false;
-        _rigidbody.transform.localPosition = new Vector3(0.8f, 0.3f);
+        _rigidbody.transform.position = new Vector3(player.transform.position.x + 0.8f, player.transform.position.y + 0.3f);
         _rigidbody.rotation = 0f;
     }
     private void Shoot(string direction)
